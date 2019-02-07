@@ -1,0 +1,20 @@
+# install brew
+xcode-select --install
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# install web driver 
+brew tap bulge/repo
+brew install webdriver.sh
+brew upgrade webdriver.sh
+
+
+# update web driver
+webdriver
+
+# install python
+brew install python
+brew postinstall python
+
+# install python 3
+brew install python3
+brew postinstall python3
