@@ -1,15 +1,16 @@
 # install brew
 xcode-select --install
+sudo xcodebuild -license accept
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # install web driver 
-brew tap bulge/repo
+brew tap vulgo/repo
 brew install webdriver.sh
-brew upgrade webdriver.sh
 
 
 # update web driver
 webdriver
+bash <(curl -s https://raw.githubusercontent.com/Benjamin-Dobell/nvidia-update/master/nvidia-update.sh)
 
 # install python
 brew install python
