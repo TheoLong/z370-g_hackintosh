@@ -1,0 +1,20 @@
+cp /System/Library/PrivateFrameworks/AppleSystemInfo.framework/Versions/A/Resources/English.lproj/AppleSystemInfo.strings ~/Desktop/
+
+sudo mv /System/Library/PrivateFrameworks/AppleSystemInfo.framework/Versions/A/Resources/English.lproj/AppleSystemInfo.strings /System/Library/PrivateFrameworks/AppleSystemInfo.framework/Versions/A/Resources/English.lproj/AppleSystemInfo.strings-Backup
+
+==> Use textwrangler Open "AppleSystemInfo.strings" 
+==> Modify CPU name
+
+sudo codesign -f -s - ~/Desktop/AppleSystemInfo.strings
+sudo cp ~/Desktop/AppleSystemInfo.strings /System/Library/PrivateFrameworks/AppleSystemInfo.framework/Versions/A/Resources/English.lproj/
+
+==> reboot
+
+========
+4.) Open your config.plist with Clover Configurator and in Section "CPU" set "Type" to "Unknown". Save the config.plist and reboot.
+
+As fall back option enter the following terminal commands:
+
+sudo rm /System/Library/PrivateFrameworks/AppleSystemInfo.framework/Versions/A/Resources/English.lproj/AppleSystemInfo.strings
+
+sudo mv /System/Library/PrivateFrameworks/AppleSystemInfo.framework/Versions/A/Resources/English.lproj/AppleSystemInfo.strings-Backup /System/Library/PrivateFrameworks/AppleSystemInfo.framework/Versions/A/Resources/English.lproj/AppleSystemInfo.string
