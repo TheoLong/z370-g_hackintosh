@@ -20,3 +20,9 @@ Step5: run post_install
         2. webdriver
         3. python + pip
         4. python + pip3
+
+Other fixes:
+    iMessage fix: Follow this guide: https://www.youtube.com/watch?v=IYismHReQ8A
+    
+Apps that's essential for me:
+        app_list.txt
