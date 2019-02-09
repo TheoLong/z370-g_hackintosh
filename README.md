@@ -1,5 +1,12 @@
 # z370-g_hackintosh
-Z370-G Hackintosh package
+This is everything you need to complete hackintosh build with the following components:
+
+MOBO: ASUS Strix Z370-G
+MEM:  Corsair DDR4 32G 3200Mhz
+CPU:  Intel Core i7-9700k
+GPU:  GTX 1060 6GB
+SSD:  Samsung 970evo
+
 
 Step1: Prepare USB:
     Use unibeast + efi folder 
@@ -24,6 +31,7 @@ Step5: run post_install
 Other fixes:
     iMessage fix: Follow this guide: https://www.youtube.com/watch?v=IYismHReQ8A
     Unknwon CPU fix: See Cosmetic fix unknown CPU.txt
+    Nvidia audio fix: see Fixes/cloverHDMI-130
     
     
 Apps that's essential for me:
