@@ -23,6 +23,8 @@ Step5: run post_install
 
 Other fixes:
     iMessage fix: Follow this guide: https://www.youtube.com/watch?v=IYismHReQ8A
+    Unknwon CPU fix: See Cosmetic fix unknown CPU.txt
+    
     
 Apps that's essential for me:
         app_list.txt
